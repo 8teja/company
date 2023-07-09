@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.thebody{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+.firstcard{
+    background-image: url(./1.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+    left: 250px;
+ }
+ .navbar{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+}
+.nav-menu{
+    position: absolute;
+    top: 15px;
+    left: 450px;}
+ #mountainlogo{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 50%;}
+.nav-menu ul {
+    display: flex;
+    gap: 50px;}
+ .nav-menu ul li{
+     list-style-type: none;
+     text-decoration: underline;
+     font-style: italic;
+  }
+  .text1{
+    position: absolute;
+    top: 130px;
+    left: 180px;
+   
+}
+#a1{
+   font-size: 4rem;
+}
+#b1{
+    font-size: 4.5rem;
+    color: rgb(68, 52, 83);
+}
+.secondcard_navbar{
+    display: flex;
+    height: 50px;
+    width: 15000px;
+    position: relative;
+    top: 280px;
+}
+#logo{
+    height: 40px;
+    width: 40px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left:100px;}
+.text{
+    height: 100px;
+    width: 50px; 
+    font-size: 15px;
+    position: absolute;
+    top: 0px;
+    left:150px;}
+.navbar_menu{
+    position: absolute;
+    top: 10px;
+    left: 450px;
+}
+.navbar_menu ul{
+    display: flex;
+    gap: 50px;
+}
+.navbar_menu ul li{
+    list-style-type: none;
+    text-decoration: underline;
+    font-style: italic;
+}
+.thirdcard{
+    background-image: url(./2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    top: 560px;
+    left: 0px;
+}
+.header{
+    position: absolute;
+    top: 50px;
+    left: 110px;
+}
+.first_history{
+    display: flex;
+}
+.first{
+    font-size: 8rem;
+    color: rgb(130, 133, 133);
+    font-weight: bold;
+}
+.history{
+    font-size: 2rem;
+    color: rgb(50, 51, 52);
+    position: absolute;
+    top: 60px;
+    left: 130px;
+    font-weight: bold;
+}
+.image_navbar{
+    display: flex;
+    position: absolute;
+    top: 370px;
+    left: 150px;
+    gap: 10px;  
+}
+.background{
+    height: 150px;
+    width: 800px;
+    background-color: rgb(26, 25, 27);
+    opacity: 70%;
+    position: absolute;
+    top: 350px;
+}
+.fourthcard{
+  height: 100px;
+  width: 800px;
+  position: absolute;
+  top: 1050px;
+  left: 0px;
+  display: flex;
+}
+.second{
+    font-size: 8rem;
+    color: rgb(157, 161, 161); 
+    font-weight: bold;
+}
+.climb{
+    font-size: 2rem;
+    color: rgb(50, 51, 52);
+    position: absolute;
+    top: 60px;
+    left: 130px;
+    font-weight: bold; 
+}
+.lorem{
+    position: absolute;
+    top: 50px;
+    left: 260px;
+}
+.fifthcard{
+    background-image: url(./birds.webp);
+    height: 350px;
+    width: 800px;
+    position: absolute;
+    top: 1180px;
+    left: 0px;
+}
+.mountain_navbar{
+    height: 20px;
+    width: 800px;
+    background-color: rgb(99, 138, 182);
+}
+.mountain_navbar ul{
+display: flex;
+gap: 25px;
+position: absolute;
+left: 80px;}
+.mountain_navbar ul li{
+    list-style-type: none;
+}
+.flexcontainer{
+    height: 160px;
+    width: 300px;
+    background-color: white;
+    opacity: 60%;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    justify-content: center;
+}
+.last_navbar{
+    height: 40px;
+    width: 800px;
+    background-color: rgb(99, 138, 182);
+    position: absolute;
+    top: 310px;
+}
+#lastlogo{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+.last_text{
+    height: 100px;
+    width: 50px; 
+    font-size: 15px;
+    position: absolute;
+    top: 0px;
+    left:150px;
+}
+.rightside{
+    position: absolute;
+    left: 500px;
+    top: 10px;
+    font-size: 10px;
+}
